@@ -39,7 +39,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             },1);
             return;
         }
-        LocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 1, this);
+        LocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 100, 1, this);
     }
 
    @Override
