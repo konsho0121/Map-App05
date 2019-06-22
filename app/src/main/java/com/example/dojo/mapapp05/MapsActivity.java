@@ -129,9 +129,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng aomori = new LatLng(40.783084, 140.781492);
         //mMap.addMarker(new MarkerOptions().position(aomori).title("Marker in 青森大学"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(aomori,17));
-    }
+    }//}
 }
 
 //public class MainActivity extends FragmentActivity {
   //  private LatLng mLocation = new LatLng()
-//}
